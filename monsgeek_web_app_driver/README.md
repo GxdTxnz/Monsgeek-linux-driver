@@ -18,6 +18,7 @@ Tested on MonsGeek FUN60 Ultra (`3151:5030`, model number 2387). Only wired conn
 
 > [!IMPORTANT]
 > Accepts commands only from `https://web.monsgeek.com`
+> 
 > The web app stores its data (macros, profiles) in `~/.local/share/monsgeek-bridge/`
 
 ## Building
