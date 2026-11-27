@@ -16,7 +16,7 @@ monsgeek-bridge
 
 Tested on MonsGeek FUN60 Ultra (`3151:5030`, model number 2387). Only wired connections are supported; the 2.4G dongle and Bluetooth are not yet supported.
 
-> [!info]
+> [!IMPORTANT]
 > Accepts commands only from `https://web.monsgeek.com`
 > The web app stores its data (macros, profiles) in `~/.local/share/monsgeek-bridge/`
 
@@ -82,3 +82,15 @@ journalctl --user -u monsgeek-bridge -f
 systemctl --user disable --now monsgeek-bridge
 sudo make uninstall
 ```
+
+## License
+
+Copyright (C) 2026 GxdTxnz
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See [LICENSE](../LICENSE).
+
+`third_party/httplib.h` is [cpp-httplib](https://github.com/yhirose/cpp-httplib) by Yuji Hirose, MIT License.
+
+## Disclaimer
+
+This is an unofficial project, not affiliated with or endorsed by MonsGeek. MonsGeek is a trademark of its owner. The software is provided without any warranty: use it at your own risk.

@@ -103,7 +103,11 @@ $(DIST)/monsgeek-bridge.service: packaging/monsgeek-bridge.service.in
 	mkdir -p $(DIST)
 	sed 's|@BINDIR@|/usr/bin|' $< > $@
 
-$(DEB): $(DIST)/$(TARGET) $(DIST)/70-monsgeek.rules $(DIST)/monsgeek-bridge.service packaging/nfpm.yaml \
+$(DIST)/LICENSE: ../LICENSE
+	mkdir -p $(DIST)
+	cp $< $@
+
+$(DEB): $(DIST)/$(TARGET) $(DIST)/70-monsgeek.rules $(DIST)/monsgeek-bridge.service $(DIST)/LICENSE packaging/nfpm.yaml \
 		packaging/postinst.sh packaging/prerm.sh packaging/postrm.sh README.md
 	$(DOCKER) run --rm -u $$(id -u):$$(id -g) -e VERSION=$(VERSION) -v "$(CURDIR):/work" -w /work \
 		$(NFPM_IMAGE) package -f packaging/nfpm.yaml -p deb -t $(DIST)/

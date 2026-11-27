@@ -28,6 +28,7 @@ $docker run --rm -v "$dir:/pkg:ro" "$image" bash -c "
   check 'user service' 'grep -q \"^ExecStart=/usr/bin/monsgeek-bridge\$\" /usr/lib/systemd/user/monsgeek-bridge.service'
   check 'service enabled for all users' '[ -L \$wants ]'
   check 'README' '[ -f /usr/share/doc/monsgeek-bridge/README.md ]'
+  check 'license' 'grep -q \"GNU GENERAL PUBLIC LICENSE\" /usr/share/doc/monsgeek-bridge/copyright'
   check 'no libprotobuf dependency' '! ldd /usr/bin/monsgeek-bridge | grep -q libprotobuf'
   check 'binary runs' 'monsgeek-bridge --no-such-flag 2>&1 | grep -q \"usage\"'
   check 'package upgrades' 'apt-get install -y -qq --reinstall /pkg/$name >/dev/null 2>&1 && [ -L \$wants ]'
