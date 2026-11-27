@@ -1,0 +1,10 @@
+[Unit]
+Description=MonsGeek bridge for web app
+
+[Service]
+ExecStart=@BINDIR@/monsgeek-bridge
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

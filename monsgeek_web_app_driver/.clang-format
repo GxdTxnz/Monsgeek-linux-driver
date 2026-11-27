@@ -1,0 +1,273 @@
+BasedOnStyle: Microsoft
+IndentWidth: 2
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortLambdasOnASingleLine: Inline
+InsertBraces: true
+SeparateDefinitionBlocks: Always
+SortIncludes: CaseSensitive
+IncludeBlocks: Merge
+MainIncludeChar: AngleBracket
+IncludeIsMainRegex: 'a^'
+IncludeCategories:
+  - Regex: '^<.{1}>$'
+    Priority: 1
+  - Regex: '^<.{2}>$'
+    Priority: 2
+  - Regex: '^<.{3}>$'
+    Priority: 3
+  - Regex: '^<.{4}>$'
+    Priority: 4
+  - Regex: '^<.{5}>$'
+    Priority: 5
+  - Regex: '^<.{6}>$'
+    Priority: 6
+  - Regex: '^<.{7}>$'
+    Priority: 7
+  - Regex: '^<.{8}>$'
+    Priority: 8
+  - Regex: '^<.{9}>$'
+    Priority: 9
+  - Regex: '^<.{10}>$'
+    Priority: 10
+  - Regex: '^<.{11}>$'
+    Priority: 11
+  - Regex: '^<.{12}>$'
+    Priority: 12
+  - Regex: '^<.{13}>$'
+    Priority: 13
+  - Regex: '^<.{14}>$'
+    Priority: 14
+  - Regex: '^<.{15}>$'
+    Priority: 15
+  - Regex: '^<.{16}>$'
+    Priority: 16
+  - Regex: '^<.{17}>$'
+    Priority: 17
+  - Regex: '^<.{18}>$'
+    Priority: 18
+  - Regex: '^<.{19}>$'
+    Priority: 19
+  - Regex: '^<.{20}>$'
+    Priority: 20
+  - Regex: '^<.{21}>$'
+    Priority: 21
+  - Regex: '^<.{22}>$'
+    Priority: 22
+  - Regex: '^<.{23}>$'
+    Priority: 23
+  - Regex: '^<.{24}>$'
+    Priority: 24
+  - Regex: '^<.{25}>$'
+    Priority: 25
+  - Regex: '^<.{26}>$'
+    Priority: 26
+  - Regex: '^<.{27}>$'
+    Priority: 27
+  - Regex: '^<.{28}>$'
+    Priority: 28
+  - Regex: '^<.{29}>$'
+    Priority: 29
+  - Regex: '^<.{30}>$'
+    Priority: 30
+  - Regex: '^<.{31}>$'
+    Priority: 31
+  - Regex: '^<.{32}>$'
+    Priority: 32
+  - Regex: '^<.{33}>$'
+    Priority: 33
+  - Regex: '^<.{34}>$'
+    Priority: 34
+  - Regex: '^<.{35}>$'
+    Priority: 35
+  - Regex: '^<.{36}>$'
+    Priority: 36
+  - Regex: '^<.{37}>$'
+    Priority: 37
+  - Regex: '^<.{38}>$'
+    Priority: 38
+  - Regex: '^<.{39}>$'
+    Priority: 39
+  - Regex: '^<.{40}>$'
+    Priority: 40
+  - Regex: '^<.{41}>$'
+    Priority: 41
+  - Regex: '^<.{42}>$'
+    Priority: 42
+  - Regex: '^<.{43}>$'
+    Priority: 43
+  - Regex: '^<.{44}>$'
+    Priority: 44
+  - Regex: '^<.{45}>$'
+    Priority: 45
+  - Regex: '^<.{46}>$'
+    Priority: 46
+  - Regex: '^<.{47}>$'
+    Priority: 47
+  - Regex: '^<.{48}>$'
+    Priority: 48
+  - Regex: '^<.{49}>$'
+    Priority: 49
+  - Regex: '^<.{50}>$'
+    Priority: 50
+  - Regex: '^<.{51}>$'
+    Priority: 51
+  - Regex: '^<.{52}>$'
+    Priority: 52
+  - Regex: '^<.{53}>$'
+    Priority: 53
+  - Regex: '^<.{54}>$'
+    Priority: 54
+  - Regex: '^<.{55}>$'
+    Priority: 55
+  - Regex: '^<.{56}>$'
+    Priority: 56
+  - Regex: '^<.{57}>$'
+    Priority: 57
+  - Regex: '^<.{58}>$'
+    Priority: 58
+  - Regex: '^<.{59}>$'
+    Priority: 59
+  - Regex: '^<.{60}>$'
+    Priority: 60
+  - Regex: '^<.{61}>$'
+    Priority: 61
+  - Regex: '^<.{62}>$'
+    Priority: 62
+  - Regex: '^<.{63}>$'
+    Priority: 63
+  - Regex: '^<.{64}>$'
+    Priority: 64
+  - Regex: '^".{1}"$'
+    Priority: 101
+  - Regex: '^".{2}"$'
+    Priority: 102
+  - Regex: '^".{3}"$'
+    Priority: 103
+  - Regex: '^".{4}"$'
+    Priority: 104
+  - Regex: '^".{5}"$'
+    Priority: 105
+  - Regex: '^".{6}"$'
+    Priority: 106
+  - Regex: '^".{7}"$'
+    Priority: 107
+  - Regex: '^".{8}"$'
+    Priority: 108
+  - Regex: '^".{9}"$'
+    Priority: 109
+  - Regex: '^".{10}"$'
+    Priority: 110
+  - Regex: '^".{11}"$'
+    Priority: 111
+  - Regex: '^".{12}"$'
+    Priority: 112
+  - Regex: '^".{13}"$'
+    Priority: 113
+  - Regex: '^".{14}"$'
+    Priority: 114
+  - Regex: '^".{15}"$'
+    Priority: 115
+  - Regex: '^".{16}"$'
+    Priority: 116
+  - Regex: '^".{17}"$'
+    Priority: 117
+  - Regex: '^".{18}"$'
+    Priority: 118
+  - Regex: '^".{19}"$'
+    Priority: 119
+  - Regex: '^".{20}"$'
+    Priority: 120
+  - Regex: '^".{21}"$'
+    Priority: 121
+  - Regex: '^".{22}"$'
+    Priority: 122
+  - Regex: '^".{23}"$'
+    Priority: 123
+  - Regex: '^".{24}"$'
+    Priority: 124
+  - Regex: '^".{25}"$'
+    Priority: 125
+  - Regex: '^".{26}"$'
+    Priority: 126
+  - Regex: '^".{27}"$'
+    Priority: 127
+  - Regex: '^".{28}"$'
+    Priority: 128
+  - Regex: '^".{29}"$'
+    Priority: 129
+  - Regex: '^".{30}"$'
+    Priority: 130
+  - Regex: '^".{31}"$'
+    Priority: 131
+  - Regex: '^".{32}"$'
+    Priority: 132
+  - Regex: '^".{33}"$'
+    Priority: 133
+  - Regex: '^".{34}"$'
+    Priority: 134
+  - Regex: '^".{35}"$'
+    Priority: 135
+  - Regex: '^".{36}"$'
+    Priority: 136
+  - Regex: '^".{37}"$'
+    Priority: 137
+  - Regex: '^".{38}"$'
+    Priority: 138
+  - Regex: '^".{39}"$'
+    Priority: 139
+  - Regex: '^".{40}"$'
+    Priority: 140
+  - Regex: '^".{41}"$'
+    Priority: 141
+  - Regex: '^".{42}"$'
+    Priority: 142
+  - Regex: '^".{43}"$'
+    Priority: 143
+  - Regex: '^".{44}"$'
+    Priority: 144
+  - Regex: '^".{45}"$'
+    Priority: 145
+  - Regex: '^".{46}"$'
+    Priority: 146
+  - Regex: '^".{47}"$'
+    Priority: 147
+  - Regex: '^".{48}"$'
+    Priority: 148
+  - Regex: '^".{49}"$'
+    Priority: 149
+  - Regex: '^".{50}"$'
+    Priority: 150
+  - Regex: '^".{51}"$'
+    Priority: 151
+  - Regex: '^".{52}"$'
+    Priority: 152
+  - Regex: '^".{53}"$'
+    Priority: 153
+  - Regex: '^".{54}"$'
+    Priority: 154
+  - Regex: '^".{55}"$'
+    Priority: 155
+  - Regex: '^".{56}"$'
+    Priority: 156
+  - Regex: '^".{57}"$'
+    Priority: 157
+  - Regex: '^".{58}"$'
+    Priority: 158
+  - Regex: '^".{59}"$'
+    Priority: 159
+  - Regex: '^".{60}"$'
+    Priority: 160
+  - Regex: '^".{61}"$'
+    Priority: 161
+  - Regex: '^".{62}"$'
+    Priority: 162
+  - Regex: '^".{63}"$'
+    Priority: 163
+  - Regex: '^".{64}"$'
+    Priority: 164
+  - Regex: '.*'
+    Priority: 1000
